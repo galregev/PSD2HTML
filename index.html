@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Arrow | By Gal </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <script>
+        $(document).ready(function(){
+            $(document).scroll(function () {
+	            var $nav = $("ul#topMenu");
+	            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <section id="header">
+               
+            <div id="header_container">
+
+                <div id="topBar">
+                    <a href="#" id="logo"></a>
+
+                    <ul id="topMenu">
+                        <li> <a href="#services">Services</a> </li>
+                        <li> <a href="#port_container">Portfolio</a> </li>
+                        <li> <a href="#">Team</a> </li>
+                        <li> <a href="#">Offices</a> </li>
+                        <li> <a href="#">Clients</a> </li>
+                        <li> <a href="#">Contact</a> </li>
+                    </ul>
+                </div>
+
+                <div id="sliderText">
+
+                    <div id="logo_big_pos">
+                        <div id="logo_big"><span id="arrowT">Arrow</span></div>
+                    </div>
+
+                    <p id="sText">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>
+
+                    <button type="button" id="knowMore"> Know More </button>
+
+                </div>
+
+                <div id="scrollDown">
+                    <span id="scroller"></span>
+                    <p id="scrollText">scroll down</p>
+                </div>
+
+                <div class="sep"></div>
+
+            </div>
+
+        </section> <!-- Header -->
+
+        <section id="services">
+
+            <div id="serv_container">
+
+                <h1> Our Services </h1>
+
+                <div id="card_container">
+                        <div class="card">
+
+                                <img src="icon/code-100.png" alt="code"/>
+                                <span> Idea </span>
+    
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </p>
+            
+                            </div>
+                    <div class="card">
+
+                            <img src="icon/design-100.png" alt="code"/>
+                            <span> Idea </span>
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+        
+                        </div>
+                        <div class="card">
+
+                            <img src="icon/idea-100.png" alt="code"/>
+                            <span> Idea </span>
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+        
+                        </div>
+                </div>
+
+            </div>
+
+        </section> <!-- Services -->
+
+        <section id="portfolio">
+
+            <div id="port_container">
+
+                <h1> Our Portfolio </h1>
+
+                <div id="galleryBox">
+                    
+                    <div class="imgWarp">
+                        <img src="img/p1.jpg" alt="" class="galaImg"/>
+
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="imgWarp">
+                        <img src="img/p2.jpg" alt="" class="galaImg"/>
+    
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="imgWarp">
+                        <img src="img/p3.jpg" alt="" class="galaImg"/>
+    
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="imgWarp">
+                        <img src="img/p4.jpg" alt="" class="galaImg"/>
+        
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+
+                    <div class="imgWarp">
+                        <img src="img/p5.jpg" alt="" class="galaImg"/>
+        
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+    
+                    <div class="imgWarp">
+                        <img src="img/p6.jpg" alt="" class="galaImg"/>
+            
+                        <div class="textWarp">
+                            <span> iPhone App UI Design </span>
+                            <i class="fas fa-plus-circle plusIco"></i>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </section> <!--Portfolio -->
+
+        <section id="team">
+
+            <div id="team_container">
+
+                <h1> Our Team </h1>
+
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+
+                <div id="whowe">
+
+                    <div class="person">
+                        <div class="personImgContainer">
+
+                            <img src="img/pp (1).jpg" alt="" class="personImg"/>
+
+                            <div class="socialWarp">
+                                    <a href=""><i class="fab fa-facebook-square showIconF"></i></a>
+                                    <a href=""><i class="fab fa-linkedin showIconL"></i></a>
+                                    <a href=""><i class="fab fa-instagram showIconI"></i></a>
+                            </div>
+                        </div>
+    
+                            <span class="presonName"> Dariya Reznitsky </span>
+                            <span class="PersonTitle"> Certified nurse </span>
+    
+                    </div>
+
+                    <div class="person">
+                            <div class="personImgContainer">
+    
+                                <img src="img/gal.jpg" alt="" class="personImg"/>
+    
+                                <div class="socialWarp">
+                                    <a href=""><i class="fab fa-facebook-square showIconF"></i></a>
+                                    <a href=""><i class="fab fa-linkedin showIconL"></i></a>
+                                    <a href=""><i class="fab fa-instagram showIconI"></i></a>
+                                </div>
+                            </div>
+        
+                                <span class="presonName"> Gal Regev </span>
+                                <span class="PersonTitle"> FullStack </span>
+        
+                        </div>
+
+                
+                        <div class="person">
+                                <div class="personImgContainer">
+        
+                                    <img src="img/gal.jpg" alt="" class="personImg"/>
+        
+                                    <div class="socialWarp">
+                                        <a href=""><i class="fab fa-facebook-square showIconF"></i></a>
+                                        <a href=""> <i class="fab fa-linkedin showIconL"></i></a>
+                                        <a href=""><i class="fab fa-instagram showIconI"></i></a>
+                                    </div>
+                                </div>
+            
+                                    <span class="presonName"> Gal Regev </span>
+                                    <span class="PersonTitle"> FullStack </span>
+            
+                            </div>
+
+                            <div class="person">
+                                    <div class="personImgContainer">
+            
+                                        <img src="img/gal.jpg" alt="" class="personImg"/>
+            
+                                        <div class="socialWarp">
+                                            <a href=""><i class="fab fa-facebook-square showIconF"></i></a>
+                                            <a href=""><i class="fab fa-linkedin showIconL"></i></a>
+                                            <a href=""><i class="fab fa-instagram showIconI"></i></a>
+                                        </div>
+                                    </div>
+                
+                                        <span class="presonName"> Tal Arava </span>
+                                        <span class="PersonTitle"> FullStack </span>
+                
+                                </div>
+
+                </div>
+
+            </div>
+
+        </section> <!-- Our Team Section -->
+
+        <section id="offices">
+
+            <div id="office_container">
+
+                <h1> Our Offices </h1>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+                <div id="atlas">
+                    <i class="fas fa-map-marker-alt france"><span> France </span></i>
+                    <i class="fas fa-map-marker-alt usa"><span> United States </span></i>
+                    <i class="fas fa-map-marker-alt israel"><span> Israel </span></i>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div> <!-- Container -->
+    
+    <div id="footer">
+        <div id="fold">
+
+        </div>
+    </div>
+    
+</body>
+</html>
